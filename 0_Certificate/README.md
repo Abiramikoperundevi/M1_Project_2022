@@ -6,7 +6,7 @@
     
     3.  Hackerearth 1000 Points - User mail Id for Hackerearth - "abiramiguganathan@gmail.com"
        
-    4. First day On GitHub  
+    4.  First day On GitHub  
     
-    5. GIT
+    5.  GIT
     
