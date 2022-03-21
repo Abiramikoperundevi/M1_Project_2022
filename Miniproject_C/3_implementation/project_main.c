@@ -5,15 +5,15 @@ struct covid_details
 {
 	char State_name[100];
 	long long int total_case;
-    long long int active_case;
-    long long int recovered_case;
-    long long int death_case;
+    	long long int active_case;
+    	long long int recovered_case;
+    	long long int death_case;
 };
 struct vaccinated_details
 {
-    char State_name[100];
-    long long int first_dose;
-    long long int second_dose;
+    	char State_name[100];
+    	long long int first_dose;
+    	long long int second_dose;
 };
 struct covid_details s[10000];
 struct vaccinated_details v[10000];
@@ -32,8 +32,8 @@ int main()
     for(int i=1;i<=4;i++)
     {
         s[i].total_case=0;
-		s[i].active_case=0;
-		s[i].recovered_case=0;
+	s[i].active_case=0;
+	s[i].recovered_case=0;
         s[i].death_case=0;
     }
     for(int j=0;j<=4;j++){
@@ -60,17 +60,17 @@ int main()
 			}
 			case 3:
 			{
-		        covid_status();	
-		        break;
+		        	covid_status();	
+		        	break;
 			}
 			case 4:
 			{
-			    vaccinated_status();
-			    break;
+			    	vaccinated_status();
+			    	break;
 			}
 			case 5:
 			{
-			    exit(1);
+			    	exit(1);
 			}
 			default:
 			{
@@ -96,12 +96,12 @@ void covid_details()
 		printf("\n|The Death cases are      |");
 		scanf("%lld",&temp_death_case);
 		
-		printf("\n**********************************************");
+	printf("\n**********************************************");
 		
 		s[temp_state].total_case=s[temp_state].total_case + temp_total_case;
 		s[temp_state].active_case=s[temp_state].active_case + temp_active_case;
 		s[temp_state].recovered_case=s[temp_state].recovered_case + temp_recovered_case;
-        s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
+        	s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
 }
 void vaccinated_details(){
     printf("\n\n|Select the state names|\n|1.TamilNadu|\n|2. Kerala|\n|3. Karnataka|\n|4. Andra pradesh|");
@@ -121,7 +121,7 @@ void vaccinated_details(){
 
 void covid_status()
 {
-	    printf("\n\n|Select the state names|\n1. TamilNadu\n2. Kerala\n3. Karnataka\n4. Andra pradesh");
+	printf("\n\n|Select the state names|\n1. TamilNadu\n2. Kerala\n3. Karnataka\n4. Andra pradesh");
         printf("\nEnter your choice:\t");
         scanf("%d",&temp_state);
         printf("\n*********** COVID STATUS **************");
