@@ -23,7 +23,7 @@
 * @param[in] death_case
 * @return Result of the count of Total case, Active case, Recovered case, Death case
 */
-void covid_details();
+void covid_details()
 
 /**
 * Displays the vaccinated details with the information of first dosage and second dosage
