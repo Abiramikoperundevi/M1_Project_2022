@@ -6,7 +6,7 @@ long long int covid_details(long long int temp_total_case,long long int temp_act
 		s[temp_state].total_case=s[temp_state].total_case + temp_total_case;
 		s[temp_state].active_case=s[temp_state].active_case + temp_active_case;
 		s[temp_state].recovered_case=s[temp_state].recovered_case + temp_recovered_case;
-        s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
+        	s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
 }
 long long int vaccinated_details(long long int temp_first_dose,long long int temp_second_dose){
    
