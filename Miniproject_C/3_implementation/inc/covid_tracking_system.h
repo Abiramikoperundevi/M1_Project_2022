@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio_ext.h>
 
 /**
 * Displays the covid details with the information of Total case, Active case, Recovered case, Death case
