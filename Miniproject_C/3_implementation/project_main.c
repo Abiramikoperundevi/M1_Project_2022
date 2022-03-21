@@ -125,7 +125,7 @@ long long int vaccinated_details(long long int temp_first_dose,long long int tem
         	v[temp_state].second_dose=v[temp_state].second_dose+temp_second_dose;
 }
 
-int covid_status(temp_state)
+int covid_status(int temp_state)
 {
         printf("\n*********** COVID STATUS **************");
         printf("\n|Total Cases              | %lld  |",s[temp_state].total_case);
@@ -139,7 +139,7 @@ int covid_status(temp_state)
         
         printf("\n**************************************");
 }
-int vaccinated_status(temp_state){
+int vaccinated_status(int temp_state){
         printf("\n*********** VACCINATED STATUS **************");
         printf("\n|1st dosage total count           | %lld |",v[temp_state].first_dose);
         printf("\n-------------------------------");
