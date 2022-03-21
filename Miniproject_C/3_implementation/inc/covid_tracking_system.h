@@ -46,6 +46,6 @@ int covid_status(int temp_state)
 * @param[in] temp_state
 * @return Result of the count status of first dose and second dose
 */
-int vaccinated_status(temp_state)
+int vaccinated_status(int temp_state)
 
 #endif  /* #define __COVID_TRACKING_SYSTEM_H__ */
