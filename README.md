@@ -1,2 +1,2 @@
-# M1_Project_2022
+# M1_COVID TRACKING SYSTEM_2022
 M1_Project Goal
