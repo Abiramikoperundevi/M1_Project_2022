@@ -58,50 +58,62 @@ int main()
 			    printf("\n\n|Select the state names|\n|1. TamilNadu|\n|2. Kerala|\n|3. Karnataka|\n|4. Andra pradesh|");
                 	    printf("\n|Enter your choice        |");
                 	    scanf("%d",&temp_state);
-                	    printf("\n****************COVID DETAILS****************");
-                	    printf("\n-------------------------------");
-		            printf("\n|The total cases are      |");
-		            scanf("%lld",&temp_total_case);
-		            printf("\n|The Active cases are     |");
-		            scanf("%lld",&temp_active_case);
-		            printf("\n|The Recovered cases are  |");
-		            scanf("%lld",&temp_recovered_case);
-		            printf("\n|The Death cases are      |");
-		            scanf("%lld",&temp_death_case);
+                	    if(temp_state<=4){
+                	printf("\n****************COVID DETAILS****************");
+                	printf("\n-------------------------------");
+		        printf("\n|The total cases are      |");
+		        scanf("%lld",&temp_total_case);
+		        printf("\n|The Active cases are     |");
+		        scanf("%lld",&temp_active_case);
+		        printf("\n|The Recovered cases are  |");
+		        scanf("%lld",&temp_recovered_case);
+		        printf("\n|The Death cases are      |");
+		        scanf("%lld",&temp_death_case);
 		
-	                    printf("\n**********************************************");
-			    covid_details(temp_total_case,temp_active_case,temp_recovered_case,temp_death_case);
-			    break;	
+	            printf("\n**********************************************");
+                }
+                else
+                {
+                    printf("\nOops! Enter the valid choice");
+                }
+				covid_details(temp_total_case,temp_active_case,temp_recovered_case,temp_death_case);
+				break;	
 			}	
 			case 2:
 			{
 			    printf("\n\n|Select the state names|\n|1.TamilNadu|\n|2. Kerala|\n|3. Karnataka|\n|4. Andra pradesh|");
                 	    printf("\n|Enter your choice            |");
-                            scanf("%d",&temp_state);
-                            printf("\n*****************VACCINATED DETAILS*****************");
-                            printf("\n----------------------------------------------");
-                            printf("\n|Enter the 1st dosage count   |");
-                            scanf("%lld",&temp_first_dose);
-                            printf("\n|Enter the 2nd dosage count   |");
-                            scanf("%lld",&temp_second_dose);
+                	    scanf("%d",&temp_state);
+                	    if(temp_state<=4){
+                	    printf("\n*****************VACCINATED DETAILS*****************");
+                	    printf("\n----------------------------------------------");
+                	    printf("\n|Enter the 1st dosage count   |");
+                	    scanf("%lld",&temp_first_dose);
+                	    printf("\n|Enter the 2nd dosage count   |");
+                	    scanf("%lld",&temp_second_dose);
     
-                            printf("\n**********************************************");
-			    vaccinated_details(temp_first_dose,temp_second_dose);
-			    break;	
+                	    printf("\n**********************************************");
+                }
+                else
+                {
+                    printf("\nOops! Enter the valid choice");
+                }
+				vaccinated_details(temp_first_dose,temp_second_dose);
+				break;	
 			}
 			case 3:
 			{
 			    printf("\n\n|Select the state names|\n1. TamilNadu\n2. Kerala\n3. Karnataka\n4. Andra pradesh");
-                            printf("\nEnter your choice:\t");
-                            scanf("%d",&temp_state);
+                	    printf("\nEnter your choice:\t");
+                	    scanf("%d",&temp_state);
 		            covid_status(temp_state);	
 		            break;
 			}
 			case 4:
 			{
 			    printf("\n\n|Select the state names|\n|1. TamilNadu|\n|2. Kerala|\n|3. Karnataka|\n|4. Andra pradesh|");
-                            printf("\n|Enter your choice    |");
-                            scanf("%d",&temp_state);
+                	    printf("\n|Enter your choice    |");
+                	    scanf("%d",&temp_state);
 			    vaccinated_status(temp_state);
 			    break;
 			}
@@ -111,45 +123,9 @@ int main()
 			}
 			default:
 			{
-			    printf("\nEnter the valid choice\n");
-			    break;	
+				printf("\n--Enter the valid choice--\n");
+				break;	
 			}
 		}
 	}	
-}
-long long int covid_details(long long int temp_total_case,long long int temp_active_case,long long int temp_recovered_case,long long int temp_death_case)
-{
-		s[temp_state].total_case=s[temp_state].total_case + temp_total_case;
-		s[temp_state].active_case=s[temp_state].active_case + temp_active_case;
-		s[temp_state].recovered_case=s[temp_state].recovered_case + temp_recovered_case;
-                s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
-}
-long long int vaccinated_details(long long int temp_first_dose,long long int temp_second_dose){
-   
-        	v[temp_state].first_dose=v[temp_state].first_dose+temp_first_dose;
-        	v[temp_state].second_dose=v[temp_state].second_dose+temp_second_dose;
-}
-
-int covid_status(int temp_state)
-{
-        printf("\n*********** COVID STATUS **************");
-        printf("\n|Total Cases              | %lld  |",s[temp_state].total_case);
-        printf("\n-------------------------------");
-        printf("\n|Total Active cases       | %lld  |",s[temp_state].active_case);
-        printf("\n-------------------------------");
-        printf("\n|Total Recovered case     | %lld  |",s[temp_state].recovered_case);
-        printf("\n-------------------------------");
-        printf("\n|Total Death              | %lld  |",s[temp_state].death_case);
-        printf("\n-------------------------------");
-        
-        printf("\n**************************************");
-}
-int vaccinated_status(int temp_state){
-        printf("\n*********** VACCINATED STATUS **************");
-        printf("\n|1st dosage total count           | %lld |",v[temp_state].first_dose);
-        printf("\n-------------------------------");
-        printf("\n|2nd dosage total count           | %lld |",v[temp_state].second_dose);
-        printf("\n-------------------------------");
-    
-        printf("\n**************************************");
 }
