@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include<covid_tracking_system.h>
+
+/* required parameters for the covid details are available in structure covid_details*/
 struct covid_details
 {
 	char State_name[100];
@@ -9,6 +9,7 @@ struct covid_details
     	long long int recovered_case;
     	long long int death_case;
 };
+/* required parameters for the vaccinated details are available in structure vaccinated_details*/
 struct vaccinated_details
 {
     	char State_name[100];
@@ -24,11 +25,13 @@ int vaccinated_status();
 int choice,choice1;
 char temp[100];
 long long int temp_total_case,temp_active_case,temp_recovered_case,temp_death_case,temp_first_dose,temp_second_dose;
+/* numbers are assigned instead of mentioning the name of the state*/
 int tn=1, ke =2, ka = 3, ap = 4;
 int temp_state;
 int flag=0;
 int main()
 {
+	/* covid cases assigned by user*/
     for(int i=1;i<=4;i++)
     {
         s[i].total_case=0;
@@ -36,10 +39,12 @@ int main()
 	s[i].recovered_case=0;
         s[i].death_case=0;
     }
+	/* vaccinated cases assigned by user*/
     for(int j=0;j<=4;j++){
         v[j].first_dose=0;
         v[j].second_dose=0;
     }
+	/* start of the application*/
 	while(1)
 	{
 		printf("\n\n****************Welcome to Covid Case tracking E-Portal******************");
