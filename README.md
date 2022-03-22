@@ -1,5 +1,7 @@
 # M1_COVID TRACKING SYSTEM_2022
-M1_Project Goal
+
+
+![th (2)](https://user-images.githubusercontent.com/101585225/159429204-7f039cbf-5228-48c9-afe2-d507b7c634cd.jpg)
 
 
 
