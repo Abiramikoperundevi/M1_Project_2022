@@ -13,3 +13,10 @@
 *Codiga - Static analysis
 ![Codiga Badge](https://api.codiga.io/project/32085/score/svg)
 ![Codiga Badge](https://api.codiga.io/project/32085/status/svg)
+
+
+## GitHub Actions
+* Build using Make for CI
+* Unit tests with Cunit
+* Static code analysis using cppcheck
+* Dynamic Code analysis using Valgrind
