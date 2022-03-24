@@ -1,18 +1,18 @@
-name: Build CI - Windows
+name: C/C++ CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
 
-    runs-on: Windows 10-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: make -C Miniproject_c/3_implementation
-    
+      
+    - name: make all
+      run:  make all -C MiniProject_C/3_Implementation/
