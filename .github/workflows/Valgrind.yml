@@ -1,9 +1,16 @@
+
 name: Valgrind
 
 on:
   push:
-    branches: [ main ]
-   runs-on: ubuntu-latest
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
