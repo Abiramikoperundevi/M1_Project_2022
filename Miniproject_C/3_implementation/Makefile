@@ -1,6 +1,6 @@
 
 Build:
-	gcc project_main.c /unity/unity.c
+	gcc project_main.c
 
 Run:
 	./a.out
