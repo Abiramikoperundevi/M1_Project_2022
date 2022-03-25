@@ -20,6 +20,9 @@
 *Build
 [![Build CI - Linux](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml)
 
+*Analysis
+[![Analysis](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Analysis.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Analysis.yml)
+
 
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
