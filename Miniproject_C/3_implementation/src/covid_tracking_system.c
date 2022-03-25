@@ -1,20 +1,21 @@
 #include<covid_tracking_system.h>
 
 
-long long int covid_details(long long int temp_total_case,long long int temp_active_case,long long int temp_recovered_case,long long int temp_death_case)
+long int covid_details(struct covid_detail s[],int temp_state,long int temp_total_case,long int temp_active_case,long int temp_recovered_case,long int temp_death_case)
 {
 		s[temp_state].total_case=s[temp_state].total_case + temp_total_case;
 		s[temp_state].active_case=s[temp_state].active_case + temp_active_case;
 		s[temp_state].recovered_case=s[temp_state].recovered_case + temp_recovered_case;
-        	s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
+        s[temp_state].death_case=s[temp_state].death_case + temp_death_case;
 }
-long long int vaccinated_details(long long int temp_first_dose,long long int temp_second_dose){
+long int vaccinated_details(struct vaccinated_detail v[],int temp_state, long long int temp_first_dose,long long int temp_second_dose)
+{
    
-        v[temp_state].first_dose=v[temp_state].first_dose+temp_first_dose;
-        v[temp_state].second_dose=v[temp_state].second_dose+temp_second_dose;
+        v[temp_state].first_dose = v[temp_state].first_dose+temp_first_dose;
+        v[temp_state].second_dose = v[temp_state].second_dose+temp_second_dose;
 }
 
-int covid_status(temp_state)
+int covid_status(struct covid_detail s[], int temp_state)
 {
     if(temp_state<=4){
         if(s[temp_state].total_case!=0){
@@ -39,7 +40,7 @@ int covid_status(temp_state)
         printf("\nEnter the valid choice");
     }
 }
-int vaccinated_status(temp_state){
+int vaccinated_status(struct vaccinated_detail v[],int temp_state){
     if(temp_state<=4){
         if(v[temp_state].first_dose!=0 && v[temp_state].second_dose!=0){
         printf("\n*********** VACCINATED STATUS **************");
