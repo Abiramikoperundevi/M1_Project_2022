@@ -9,7 +9,7 @@
     	long long int recovered_case;
     	long long int death_case;
 }*/
-struct covid_detail ss[100];
+//struct covid_detail ss[100];
 /* required parameters for the vaccinated details are available in structure vaccinated_details*/
 /*struct vaccinated_detail
 {
@@ -17,11 +17,11 @@ struct covid_detail ss[100];
     	long long int first_dose;
     	long long int second_dose;
 }*/ 
-struct vaccinated_detail vv[100];
+//struct vaccinated_detail vv[100];
 //typedef struct covid_detail s;
-ss[]={{"1",0,0,0,0},{"2",0,0,0,0},{"3",0,0,0,0},{"4",0,0,0,0},{ NULL,0,0,0,0 }};
+struct covid_detail ss[100];//={{"1",0,0,0,0},{"2",0,0,0,0},{"3",0,0,0,0},{"4",0,0,0,0},{ NULL,0,0,0,0 }};
 //typedef struct vaccinated_detail v;
-vv[]={{"1",0,0},{"2",0,0},{"3",0,0},{"4",0,0},{ NULL,0,0 }};
+struct vaccinated_detail vv[100];//={{"1",0,0},{"2",0,0},{"3",0,0},{"4",0,0},{ NULL,0,0 }};
 
 void covid_details();
 void vaccinated_details();
@@ -34,19 +34,19 @@ int temp_total_case,temp_active_case,temp_recovered_case,temp_death_case,temp_fi
 int temp_state;
 int main()
 {
-	/* covid cases assigned by user
+	 //covid cases assigned by user
     for(int i=1;i<=4;i++)
     {
-        s[i].total_case=0;
-		s[i].active_case=0;
-		s[i].recovered_case=0;
-        s[i].death_case=0;
-    }*/
-	/* vaccinated cases assigned by user
+        ss[i].total_case=0;
+		ss[i].active_case=0;
+		ss[i].recovered_case=0;
+        ss[i].death_case=0;
+    }
+	 //vaccinated cases assigned by user
     for(int j=0;j<=4;j++){
-        v[j].first_dose=0;
-        v[j].second_dose=0;
-    }*/
+        vv[j].first_dose=0;
+        vv[j].second_dose=0;
+    }
 	/* start of the application*/
 	while(1)
 	{
