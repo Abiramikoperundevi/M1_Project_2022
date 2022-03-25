@@ -17,6 +17,9 @@
 *cppcheck action
 [![cppcheck-action](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml)
 
+*Build
+[![Build CI - Linux](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml)
+
 
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
