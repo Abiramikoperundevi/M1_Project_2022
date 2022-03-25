@@ -20,13 +20,13 @@ void covid_status(struct covid_detail s[], int temp_state)
     if(temp_state<=4){
         if(s[temp_state].total_case!=0){
         printf("\n*********** COVID STATUS **************");
-        printf("\n|Total Cases              | %lld  |",s[temp_state].total_case);
+        printf("\n|Total Cases              | %ld  |",s[temp_state].total_case);
         printf("\n-------------------------------");
-        printf("\n|Total Active cases       | %lld  |",s[temp_state].active_case);
+        printf("\n|Total Active cases       | %ld  |",s[temp_state].active_case);
         printf("\n-------------------------------");
-        printf("\n|Total Recovered case     | %lld  |",s[temp_state].recovered_case);
+        printf("\n|Total Recovered case     | %ld  |",s[temp_state].recovered_case);
         printf("\n-------------------------------");
-        printf("\n|Total Death              | %lld  |",s[temp_state].death_case);
+        printf("\n|Total Death              | %ld  |",s[temp_state].death_case);
         printf("\n-------------------------------");
         
         printf("\n**************************************");
@@ -44,9 +44,9 @@ void vaccinated_status(struct vaccinated_detail v[],int temp_state){
     if(temp_state<=4){
         if(v[temp_state].first_dose!=0 && v[temp_state].second_dose!=0){
         printf("\n*********** VACCINATED STATUS **************");
-        printf("\n|1st dosage total count           | %lld |",v[temp_state].first_dose);
+        printf("\n|1st dosage total count           | %ld |",v[temp_state].first_dose);
         printf("\n-------------------------------");
-        printf("\n|2nd dosage total count           | %lld |",v[temp_state].second_dose);
+        printf("\n|2nd dosage total count           | %ld |",v[temp_state].second_dose);
         printf("\n-------------------------------");
     
         printf("\n**********************************************");
