@@ -16,4 +16,4 @@ jobs:
     - name: Install
       run: sudo apt-get install cppcheck
     - name: analyse
-      run: cppcheck --enable=all 3_Implementation
+      run: cppcheck --enable=all Miniproject_C/3_implementation
