@@ -8,34 +8,28 @@ struct covid_detail
     	long long int active_case;
     	long long int recovered_case;
     	long long int death_case;
-};
+} ss;
 /* required parameters for the vaccinated details are available in structure vaccinated_details*/
 struct vaccinated_detail
 {
     	char State_name[100];
     	long long int first_dose;
     	long long int second_dose;
-};
-typedef struct covid_detail s;
-s ss[]={{"1",0,0,0,0},{"2",0,0,0,0},{"3",0,0,0,0},{"4",0,0,0,0},{ NULL,0,0,0,0 }};
-typedef struct vaccinated_detail v;
-v vv[]={{"1",0,0},{"2",0,0},{"3",0,0},{"4",0,0},{ NULL,0,0 }};
+} vv;
+//typedef struct covid_detail s;
+ss[]={{"1",0,0,0,0},{"2",0,0,0,0},{"3",0,0,0,0},{"4",0,0,0,0},{ NULL,0,0,0,0 }};
+//typedef struct vaccinated_detail v;
+vv[]={{"1",0,0},{"2",0,0},{"3",0,0},{"4",0,0},{ NULL,0,0 }};
 
-long int covid_details();
-long int vaccinated_details();
-int covid_status();
-int vaccinated_status();
+void covid_details();
+void vaccinated_details();
+void covid_status();
+void vaccinated_status();
 int choice,choice1;
-char temp[100];
-long
+int temp_total_case,temp_active_case,temp_recovered_case,temp_death_case,temp_first_dose,temp_second_dose;
 
-
-
- int temp_total_case,temp_active_case,temp_recovered_case,temp_death_case,temp_first_dose,temp_second_dose;
 /* numbers are assigned instead of mentioning the name of the state*/
-int tn=1, ke =2, ka = 3, ap = 4;
 int temp_state;
-int flag=0;
 int main()
 {
 	/* covid cases assigned by user
