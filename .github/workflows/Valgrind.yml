@@ -21,4 +21,4 @@ jobs:
     - name: make test
       run: |
         make test -C Miniproject_C/3_implementation/
-        valgrind ./Miniproject_C/3_implementation/build/test_covid_tracking_system.out
+        valgrind Miniproject_C/3_implementation/build/test_covid_tracking_system.out
