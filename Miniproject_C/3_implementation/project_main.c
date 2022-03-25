@@ -8,14 +8,14 @@ struct covid_detail
     	long long int active_case;
     	long long int recovered_case;
     	long long int death_case;
-} ss;
+} ss[100];
 /* required parameters for the vaccinated details are available in structure vaccinated_details*/
 struct vaccinated_detail
 {
     	char State_name[100];
     	long long int first_dose;
     	long long int second_dose;
-} vv;
+} vv[100];
 //typedef struct covid_detail s;
 ss[]={{"1",0,0,0,0},{"2",0,0,0,0},{"3",0,0,0,0},{"4",0,0,0,0},{ NULL,0,0,0,0 }};
 //typedef struct vaccinated_detail v;
