@@ -1,4 +1,4 @@
-# Name of the project
+#Name of the project
 PROJECT_NAME = COVID_TRACKING
 
 # Output directory
