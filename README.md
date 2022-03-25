@@ -15,7 +15,7 @@
 ![Codiga Badge](https://api.codiga.io/project/32085/status/svg)
 
 *cppcheck action
-[![cppcheck-action](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck.yml)
+[![cppcheck-action](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml)
 
 
 ## Integrated Tools to GitHub
