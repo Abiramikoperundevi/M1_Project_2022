@@ -38,6 +38,11 @@ And with this four options user can display the covid details and vaccinated det
 
 * VACCINATED STATUS
 
+
+![Behaviour Diagram drawio](https://user-images.githubusercontent.com/101585225/160676596-63e98f3d-db32-4157-837e-b8b90c856356.png)
+
+
+
 ## TOOLS USED
 
 * GCC Compiler
