@@ -41,6 +41,19 @@
 [![Build CI - Windows](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml)
 
 
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Output_Images`  | Output images 
+`5_Report`         |Document consisting the evaluation sheet
+`6_Test_plan`      |test plans and procedures
+`7_Other`         |doxygen document 
+
+
+
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
 
