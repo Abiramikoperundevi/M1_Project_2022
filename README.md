@@ -7,29 +7,37 @@
 
 # Badges
 
-*Codacy - static code analysis
+* Codacy - static code analysis
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9c701dc773cc416daecbe747d6f7c61a)](https://www.codacy.com/gh/Abiramikoperundevi/M1_Project_2022/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Abiramikoperundevi/M1_Project_2022&amp;utm_campaign=Badge_Grade)
 
-*Codiga - Static analysis
+* Codiga - Static analysis
+
 ![Codiga Badge](https://api.codiga.io/project/32085/score/svg)
 ![Codiga Badge](https://api.codiga.io/project/32085/status/svg)
 
-*cppcheck action
+* cppcheck action
+
 [![cppcheck-action](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/cppcheck-action.yml)
 
-*Build
+* Build
+
 [![Build CI - Linux](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/c-cpp.yml)
 
-*Analysis
+* Analysis
+
 [![Analysis](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Analysis.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Analysis.yml)
 
-*Unit testing
+* Unit testing
+
 [![Unit Testing](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/unit-test.yml)
 
-*Valgrind
+* Valgrind
+
 [![Valgrind](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/valgrind.yml)
 
-*Build - Windows
+* Build - Windows
+
 [![Build CI - Windows](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml)
 
 
