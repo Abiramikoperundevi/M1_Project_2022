@@ -26,6 +26,9 @@
 *Unit testing
 [![Unit Testing](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/unit-test.yml)
 
+*Valgrind
+[![Valgrind](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/valgrind.yml)
+
 
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
