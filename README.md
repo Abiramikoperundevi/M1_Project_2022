@@ -40,6 +40,10 @@
 
 [![Build CI - Windows](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/Build_Windows.yml)
 
+* Git Inspector
+
+[![Contribution Check - Git Inspector](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/Abiramikoperundevi/M1_Project_2022/actions/workflows/git_inspector.yml)
+
 
 ## Folder Structure
 Folder             | Description
