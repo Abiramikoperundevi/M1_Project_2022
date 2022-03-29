@@ -58,6 +58,17 @@ Folder             | Description
 *  [Codacy](https://www.codacy.com/)
 
 
+## Contributors List and Summary
+S No. |  Name               |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|---------------------|----------------|----------------|---------------|-------------|--------------
+1      | Abirami Guganathan  | Entire Project (Requirements, Design, Implementation and TestPlanAndOutput)  | 0        |0  | 0 | 0    
+  
+## Challenges Faced and How Was It Overcome
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Implementation of SDLC and maaking UML diagrams | Exploring them and linking with the architechture of my project 
+|2. | issues in running test cases | specifying correct return values for functions
+|3. | Issues in workflows | fixed them by updating the path to all files correctly
 
 ## GitHub Actions
 * Build using Make for CI
