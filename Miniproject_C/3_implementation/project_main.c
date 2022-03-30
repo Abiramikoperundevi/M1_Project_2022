@@ -128,7 +128,7 @@ int main()
 			}
 			default:
 			{
-				printf("\n--Enter the valid choice--\n");
+				printf("\n---Enter the valid choice---\n");
 				break;	
 			}
 		}
