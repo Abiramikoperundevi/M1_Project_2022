@@ -37,3 +37,22 @@ The user defined values for
       
       
 * The ouput for the above cases are available in the form of image files
+
+
+# TEST PLAN and Corresponding Output
+
+## High Level Test Plan
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | Type of Test |
+| -------:|:-----------:|:-------:|:-------:|:----------:|:------------:|
+| H_01 | Check if the welcoming page is displayed properly | Program execution | Formatted Welcome Page | Formatted Welcome Page | Requirement |
+| H_02 | Check if the menu is displayed properly | Login Credentials | Formatted Menu Page | Formatted Menu Page | Requirement |
+| H_03 | Not Stuck inside any Function | Function call | Proper function execution with return type and message | Proper function execution with return type and message | Requirement |
+
+## Low Level Test Plan
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | Type of Test |
+|--------:|:-----------:|:-------:|:-------:|:----------:|:------------:|
+| L_01 | Covid Details | state name ->total cases | display the total cases | display the total cases | Requirement |
+| L_02 | vaccinated Details | state name ->First dose and second dose | Display the first and second dose | Display the first and second dose | Technical |
+| L_03 | Covid status | Name of the state | state name->total cases | state name->total cases | Technical |
+| L_04 | vaccinated status | Name of the state | state name->first and second dose count|  state name->first and second dose count| Technical |
+
