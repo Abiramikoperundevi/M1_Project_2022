@@ -21,7 +21,7 @@ void covid_status(struct covid_detail s[], int temp_state)
         if(s[temp_state].total_case!=0){
         printf("\n*********** COVID STATUS **************");
         printf("\n|Total Cases              | %ld  |",s[temp_state].total_case);
-        printf("\n-------------------------------");
+        printf("\n--------------------------------");
         printf("\n|Total Active cases       | %ld  |",s[temp_state].active_case);
         printf("\n-------------------------------");
         printf("\n|Total Recovered case     | %ld  |",s[temp_state].recovered_case);
